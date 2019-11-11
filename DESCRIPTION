@@ -1,0 +1,35 @@
+Package: mlr3learners.earth
+Title: Multivariate Adaptive Regression Splines for mlr3 (earth package)
+Version: 0.1.0
+Authors@R:
+    c(person(given = "Philipp",
+             family = "Kopper",
+             role = c("cre", "aut"),
+             email = "kopperphilipp@gmail.com"))
+Description: Wrapper for a classification and regression learner from the earth 
+  package (CRAN) to be used in mlr3.
+License: LGPL-3
+URL: https://github.com/mlr3learners,
+    https://github.com/mlr3learners/mlr3learners.earth
+Depends:
+    R (>= 3.1.0)
+Imports:
+    checkmate,
+    data.table,
+    mlr3,
+    mlr3misc,
+    paradox,
+    R6
+Suggests:
+    testthat,
+    rmarkdown,
+    earth,
+    MASS
+Remotes:
+    mlr-org/mlr3,
+    mlr-org/mlr3misc,
+    mlr-org/paradox
+Encoding: UTF-8
+NeedsCompilation: no
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
